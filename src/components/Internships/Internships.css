@@ -1,0 +1,44 @@
+.internships
+{
+    margin: 80px auto;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+
+}
+div.tbl
+{
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+
+}
+.tbl th,td
+{
+    border: 1px solid rgb(8,5,5);
+    padding: 10px;
+    text-align: justify;
+
+}
+.tbl th
+{
+    background-color: chocolate;
+
+}
+.tbl tr:nth-child(even)
+{
+    background-color: rgb(201,225,65);
+
+}
+.tbl tr:hover
+{
+    background-color: chartreuse;
+    
+}

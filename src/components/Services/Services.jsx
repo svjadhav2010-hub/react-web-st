@@ -10,6 +10,7 @@ import DS from "../../assets/DataScience.png";
 import PHP from "../../assets/php.png";
 import ANDROID from "../../assets/Android.png";
 import JAVASCRIPT from "../../assets/JavaScript.png";
+import DOTNET from "../../assets/Dotnet.png";
 
 function Services() {
     return (
@@ -75,6 +76,13 @@ function Services() {
                 <div className="caption">
                     <img src={ICON} alt="" />
                     <p>JavaScript Programming</p>
+                </div>
+            </div>
+            <div className="course">
+                <img src={DOTNET} alt="" />
+                <div className="caption">
+                    <img src={ICON} alt="" />
+                    <p>.NET Programming</p>
                 </div>
             </div>
         </div>

@@ -8,9 +8,9 @@ function About()
     return (
         <div className='about'>
             <div className='about-left'>
-                    <img src={about_img} at="" className='about-img'/>
+                    <img src={about_img} alt="" className='about-img'/>
 
-                    <img src={play_img} at="" className='play-icon'/>
+                    <img src={play_img} alt="" className='play-icon'/>
                 </div>
                 <div className='about-right'> 
                     <h3>About Seema Technologies</h3>
@@ -20,7 +20,6 @@ function About()
                      <p>Whether you aspire to become IT Professional, our diverse range of programs offers the perfect pathway to achieve your goals and unlock your full potential in shaping the future of learninge</p>
                 </div>
             </div>
-        
     );
 }
 export default About;

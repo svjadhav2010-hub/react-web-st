@@ -1,0 +1,23 @@
+.main_gallery
+{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.gallery img
+{
+    width: 23%;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.btn .dark-btn
+{
+    background: #212EA0;  
+    color: #fff; 
+}

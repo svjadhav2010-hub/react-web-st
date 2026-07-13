@@ -4,9 +4,11 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services.jsx";
 import Titles from "./components/Titles/Titles.jsx";
 import Internships from "./components/Internships/Internships.jsx";
-import Testimonial from "./components/Testimonial/Testimonial.jsx"
+import Testimonial from "./components/Testimonial/Testimonial.jsx";
+import Gallery from "./components/Gallery/Gallery.jsx";
+import Contact from "./components/ContactUs/Contact.jsx";
 import "./App.css";
-
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -24,6 +26,15 @@ function App() {
       <div className="container">
         <Testimonial />
       </div>
+      <Titles subtitle="Gallery" title="Our Gallery"/>
+      <div className="container">
+        <Gallery />
+      </div>
+      <Titles subtitle="Contact Us" title="Get in touch"/>
+      <div className="container">
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 }

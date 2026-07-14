@@ -23,7 +23,7 @@ function Navbar()
                 <li><Link to="services" smooth={true} offset={-290} duration={500}> Services </Link></li>
                 <li><Link to="internship" smooth={true} offset={-240} duration={500}> Internship </Link></li>
                 <li><Link to="testimonial" smooth={true} offset={-290} duration={500}> Testimonials </Link></li>
-                <li><Link to="gallary" smooth={true} offset={-250} duration={500}> Gallery </Link></li>
+                <li><Link to="gallery" smooth={true} offset={-250} duration={500}> Gallery </Link></li>
                 <li><Link to="contact" smooth={true} offset={-290} duration={500}> Contact Us </Link></li>
             </ul>
         </nav>
